@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E6469AA-6D1B-16B5-F341-2140BAAEAAA4" name="DRUG">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>D251D8DB-A943-06D1-0D43-B0E222BA3F30</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="drug_id" id="77846AEB-D496-D1EB-2C7D-CEAFCDC98D37">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification number for Drug]]></commentInRDBMS>
+<generatorID>80A7A503-93EC-7367-A76B-C6F824DFC4C0</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drug_name" id="D3EC2764-8339-5189-805E-11911B12E71F">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Drug]]></commentInRDBMS>
+<generatorID>0A10441C-49E7-D8A6-CD1C-60D6C49F9BD4</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drug_usage" id="0F65D042-46B2-A00B-FF51-AF18167EBE11">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usage instruction of the drug]]></commentInRDBMS>
+<generatorID>31945299-5949-F94C-06E1-2966787A2778</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drug_standard_price" id="AF7D5A69-F540-9268-F939-5DC7B66D1A48">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fee charged for total qty of drugs. ]]></commentInRDBMS>
+<generatorID>7615085E-0F92-D506-E249-31F0AAE281B6</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="565D6BC0-159D-C735-A8C8-7561F803BAC5" name="DRUG_PK">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>8126BE9D-6A9F-253D-4CF3-73A35F311A7F</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77846AEB-D496-D1EB-2C7D-CEAFCDC98D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

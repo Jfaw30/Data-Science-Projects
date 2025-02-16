@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="visit_prescribe" directorySegmentName="seg_0" id="6FF2FD65-3DF1-DFC3-2280-AC737D65759E">
+<createdBy>jinxu</createdBy>
+<createdTime>2023-09-08 07:53:19 UTC</createdTime>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<sourcePk>984CB9B2-1940-78E3-C9E4-06C12E374C7F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>prescribes</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48C58B7B-06FB-3172-B6B9-4DE6DD375D4A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46584662-3862-326D-A730-CF171FEFDD8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

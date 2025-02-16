@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pet_visit" directorySegmentName="seg_0" id="28F54200-D43F-9D0A-55AE-333BB5B29E66">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:33:38 UTC</createdTime>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<sourcePk>3E44871A-B134-38C0-A83F-5E43CBE58C35</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>visits</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6449112-B3B4-9E23-76A1-C096EB609547</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>48C58B7B-06FB-3172-B6B9-4DE6DD375D4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

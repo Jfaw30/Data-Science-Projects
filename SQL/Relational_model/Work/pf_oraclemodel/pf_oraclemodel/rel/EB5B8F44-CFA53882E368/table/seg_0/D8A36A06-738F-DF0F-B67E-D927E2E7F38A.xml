@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8A36A06-738F-DF0F-B67E-D927E2E7F38A" name="PET_TYPE">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>A91F1B3D-0B97-ADD4-D44F-3916ACE98D77</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pet_type_id" id="5E864209-91E7-5CD5-A1AB-9AB8B07A2938">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[identification of animal type]]></commentInRDBMS>
+<generatorID>405A6E70-2B17-D1BB-2A5C-A1A8252379A9</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_type" id="563B6CBF-D053-D1CF-2A8E-168FEF4807A5">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal type]]></commentInRDBMS>
+<generatorID>057F3805-08F2-DFF8-0C94-82AF971AA749</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BBB6BE7-F00E-0C5F-F964-BDC7A15D8C8A" name="ANIMAL_TYPE_PK">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>2A58A93E-DE51-2A41-CA1E-43B9593AD3A5</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E864209-91E7-5CD5-A1AB-9AB8B07A2938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

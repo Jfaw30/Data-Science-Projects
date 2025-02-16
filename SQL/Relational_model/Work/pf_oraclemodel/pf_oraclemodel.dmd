@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pet_first_oracle_model" id="96B1CD13-1B3B-7789-918A-6C2F9E87C479" version="3.5">
+<createdBy>jinxu</createdBy>
+<createdTime>2023-09-06 09:21:52 UTC</createdTime>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>96B1CD13-1B3B-7789-918A-6C2F9E87C479</designId>
+</OSDM_Design>

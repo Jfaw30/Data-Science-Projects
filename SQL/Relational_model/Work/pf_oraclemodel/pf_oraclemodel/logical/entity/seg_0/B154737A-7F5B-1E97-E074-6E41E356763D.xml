@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B154737A-7F5B-1E97-E074-6E41E356763D" name="TRAINING">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:18:53 UTC</createdTime>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="train_id" id="128D0A73-45BB-193C-830F-E012EEDAA8C0">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-09 07:14:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[identifier for traning ]]></commentInRDBMS>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="train_date_time" id="89C1EC45-982F-CDEA-B237-87466C1F9657">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:19:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of traning. ]]></commentInRDBMS>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vet_id" id="2E1E41D3-AE1F-1ED2-0D52-8154AE3AE9DA">
+<createdBy>jinxu</createdBy>
+<createdTime>2023-09-08 08:03:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[identification number of vet]]></commentInRDBMS>
+<generatorID>812F83C1-EC7E-3FAD-5E3F-309F932AA134</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<referedAttribute>DCDC6AB6-1C43-DCB1-42C2-6BFA892CC5F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="train_name" id="24840776-2D6E-4835-2637-B2187AC9D52D">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:19:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the trainig conducted]]></commentInRDBMS>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="train_duration" id="2E84899C-5252-15FE-2A3B-08604470F805">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:20:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Duration of the training conducted]]></commentInRDBMS>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clinic_id" id="FF0BF676-4A1F-41D6-3A2A-1C3F3BC28C8E">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:43:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[identification number of clinic]]></commentInRDBMS>
+<generatorID>F613225B-FA71-6CE8-AAD9-97EB809F0818</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<referedAttribute>A7B58729-422D-722C-805E-5ADAC256BF6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D941967-520D-ED8E-A113-BF2774A77D68" name="TRAINING PK">
+<createdBy>Sachin</createdBy>
+<createdTime>2023-09-08 07:19:44 UTC</createdTime>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>128D0A73-45BB-193C-830F-E012EEDAA8C0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A268C18E-BD17-BB4A-C21E-E27D0D472BD5" name="TRAINING_FK">
+<createdBy>jinxu</createdBy>
+<createdTime>2023-09-09 09:14:42 UTC</createdTime>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<engineerTo>
+<item key="EB5B8F44-056F-A85D-4F8B-CFA53882E368" value="true"/>
+</engineerTo>
+<newElementsIDs>812F83C1-EC7E-3FAD-5E3F-309F932AA134,89C1EC45-982F-CDEA-B237-87466C1F9657</newElementsIDs>
+<usedAttributes>
+<attributeRef>2E1E41D3-AE1F-1ED2-0D52-8154AE3AE9DA</attributeRef>
+<attributeRef>89C1EC45-982F-CDEA-B237-87466C1F9657</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

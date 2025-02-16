@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AD3B2BA-5327-E247-7AE7-842FA9A1088E" name="VET">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>8C78B0BD-0A01-7B6D-6869-DBACD5F58EFC</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vet_id" id="57D44DE3-1B47-6375-EE07-0890E0B47AC7">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[identification number of vet]]></commentInRDBMS>
+<generatorID>DCDC6AB6-1C43-DCB1-42C2-6BFA892CC5F8</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_givname" id="7F4D53FA-8376-E11A-BAAC-836B3AB20B1B">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet's given name]]></commentInRDBMS>
+<generatorID>C537EAA2-0791-7A10-651D-8C862B14EC7C</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_famname" id="2F8E6A73-E548-2FE0-F659-F9E6501BE17E">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet's family name]]></commentInRDBMS>
+<generatorID>74247B0E-813C-BE37-028A-3BD635BFD972</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_cont_num" id="70AA9842-8437-6D80-63BD-79DD6349106A">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[contact number of vet]]></commentInRDBMS>
+<generatorID>2F43B3C3-20ED-93D9-D1F8-39839CADA81E</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_employed_date" id="0370F145-2092-2D0E-5C79-05DA8D9207DC">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[employed date of vet]]></commentInRDBMS>
+<generatorID>7BFE649D-EFED-4776-73BF-C24F8179EB4E</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clinic_id" id="4DF56C3C-F84E-5C8C-9940-0E448FB3FD31">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[identification number of clinic]]></commentInRDBMS>
+<generatorID>507DC0E9-C8B8-6267-D7AC-B547B0997A28</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="103A5207-A462-CCCA-0D40-BFA238B12281" referredColumn="B9C0E371-23DA-BB08-9F0B-F64A26943AA0"/>
+</associations>
+</Column>
+<Column name="spec_id" id="6FB3B46B-09CA-B430-F35D-54170694AB39">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[identifier for vet specialisation ID ]]></commentInRDBMS>
+<generatorID>83396A80-EA1E-56A6-97D4-A93FCCDD4562</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E231A14-A614-E101-9FE8-42BA54438FFF" referredColumn="1B437727-2939-7565-5FB5-72F329457320"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C031F4D-02E1-2D86-061A-549ED768BB78" name="VET_PK">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>77D794F7-26BB-5B19-53E8-1738C876B8D1</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D44DE3-1B47-6375-EE07-0890E0B47AC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="222288C2-9A02-04AB-2DF8-27C32CBDF880" name="clinic_belng_vet">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>5CBE0D84-7AC8-72B7-6F3C-C10CDDBDAC6D</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DF56C3C-F84E-5C8C-9940-0E448FB3FD31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49720F07-D242-4455-74FB-F8C373A6C919" name="vet_specialisation">
+<createdBy>rissten</createdBy>
+<createdTime>2023-09-12 07:52:17 UTC</createdTime>
+<generatorID>49103468-4090-D406-AAB1-796B985E4064</generatorID>
+<ownerDesignName>pet_first_oracle_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3B46B-09CA-B430-F35D-54170694AB39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
